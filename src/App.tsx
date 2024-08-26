@@ -10,6 +10,10 @@ function App() {
     <>
       <ProgressBar progressBarWidth={50} />
       <div>You've earned ${moneyEarnedToday} today!</div>
+      <ProgressBar progressBarWidth={70} />
+      <div>You've earned ${moneyEarnedThisMonth} this month!</div>
+      <ProgressBar progressBarWidth={75} />
+      <div>You've earned ${moneyEarnedThisYear} this year!</div>
     </>
   );
 }
